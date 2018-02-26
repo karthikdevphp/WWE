@@ -21,7 +21,7 @@ class CreateVideosTable extends Migration {
             $table->integer('location_id')->unsigned()->nullable();
             $table->string('duration')->nullable();
             $table->integer('filesize')->nullable();
-            $table->float('bitrate')->nullable();
+            $table->float('bitrate',16,2)->nullable();
             $table->timestamps();
         });
     }
