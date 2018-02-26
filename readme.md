@@ -15,3 +15,5 @@
 
 ##TEST CASES 18 both Functional and Unit Test
  - Run Unit test  ./vendor/phpunit/phpunit/phpunit
+
+##Completed all the use cases as per WWE Technical Test pdf
