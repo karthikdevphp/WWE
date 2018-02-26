@@ -41,7 +41,11 @@ class DatabaseSeeder extends Seeder
         
         //Video data to be seeded by default
         DB::table('videos')->insert(
-            ['title' => 'firstupload']
+            ['title' => 'firstupload','filename' => 'SampleVideo_1280x720_1mb.mp4','url' => 'uploads/SampleVideo_1280x720_1mb.mp4','duration' => '0:05','filesize' => '1055736','bitrate' => '1589890']
+        );
+        /*
+        DB::table('videos')->insert(
+            ['filename' => 'SampleVideo_1280x720_1mb.mp4']
         );
         DB::table('videos')->insert(
             ['url' => 'uploads/SampleVideo_1280x720_1mb.mp4']
@@ -55,6 +59,7 @@ class DatabaseSeeder extends Seeder
         DB::table('videos')->insert(
             ['bitrate' => '1589890']
         );
+        */
 
         $this->command->info('WWE META KEYWORDS  LOCATIONS AND SAMPLE VIDEO DATA HAS BEEN POPULATED WITH DEFAULT VALUES');
     }
