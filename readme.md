@@ -7,6 +7,7 @@
 - Create the Database specified in the .env file
 - php artisan migrate
 - php arthisan db:seed
+- php artisan server --port=8010
 
 
 ## REST API. 
