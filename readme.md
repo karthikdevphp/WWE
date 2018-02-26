@@ -8,6 +8,7 @@
 - php artisan migrate
 - php arthisan db:seed
 - php artisan server --port=8010
+- open http://127.0.0.1:8010/ in chrome browser
 
 
 ## REST API. 
