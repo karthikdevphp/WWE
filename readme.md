@@ -19,4 +19,5 @@
 ##Completed all the use cases as per WWE Technical Test pdf
 
 ##Hosted it in aws url
- -http://ec2-13-59-176-50.us-east-2.compute.amazonaws.com/WWE/public/
+ - http://ec2-13-59-176-50.us-east-2.compute.amazonaws.com/WWE/public/
+ - Not All the functionalities are available because Linux ami has out dated PHP version
