@@ -2,7 +2,7 @@
 
 ## Installation Instructions
 
-
+- deploy the code in your local from the repository
 - CREATE .env file specify hostname DB Name user name and password
 - Create the Database specified in the .env file
 - php artisan migrate
